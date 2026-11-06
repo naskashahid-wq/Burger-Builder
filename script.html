@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="script.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">🍔</div>
+
+        <nav>
+            <a href="#" class="active">Burger Builder</a>
+            <a href="#" id="login">Login</a>
+        </nav>
+    </header>
+
+    <section class="burger-section">
+        <div class="burger">
+            <div class="bun-top">
+                <span class="seed seed1"></span>
+                <span class="seed seed2"></span>
+                <span class="seed seed3"></span>
+                <span class="seed seed4"></span>
+                <span class="seed seed5"></span>
+            </div>
+
+            <div id="burger-ingredients"></div>
+
+            <div class="bun-bottom"></div>
+        </div>
+    </section>
+
+    <section class="controls">
+
+        <p class="price">
+            Current price: $<strong id="price">3.00</strong>
+        </p>
+
+        <div class="ingredient-row">
+            <label>Lettuce</label>
+            <button class="less">Less</button>
+            <button class="more">More</button>
+        </div>
+
+        <div class="ingredient-row">
+            <label>Bacon</label>
+            <button class="less">Less</button>
+            <button class="more">More</button>
+        </div>
+
+        <div class="ingredient-row">
+            <label>Cheese</label>
+            <button class="less">Less</button>
+            <button class="more">More</button>
+        </div>
+
+        <div class="ingredient-row">
+            <label>Meat</label>
+            <button class="less">Less</button>
+            <button class="more">More</button>
+        </div>
+
+        <button class="signup">SIGN UP TO ORDER</button>
+
+    </section>
+
+<div class="signup-form" id="signup-form">
+
+    <form id="my-form">
+
+        <input
+            type="email"
+            id="email"
+            placeholder="E-mail Address"
+            required
+        >
+
+        <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            required
+        >
+
+        <button type="submit" class="submit-btn">
+            SUBMIT
+        </button>
+
+        <button type="button" class="signin-btn" id="signin">
+            SIGNIN
+        </button>
+
+    </form>
+
+</div>
+
+    <script src="burger.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
